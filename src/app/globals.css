@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background: #0b0f17;
+  color: #f1f5f9;
+}
+
+.container-app {
+  @apply min-h-screen flex flex-col;
+}
+
+.input-base {
+  @apply w-full bg-muted text-slate-100 rounded-lg px-4 py-3 outline-none border border-slate-700 focus:border-primary transition;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-indigo-500 text-white font-medium rounded-md px-4 py-2 transition;
+}
+
+.card {
+  @apply bg-surface border border-slate-800 rounded-xl;
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "agentic-6202f702",
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "outputDirectory": ".next",
+  "env": {
+    "NODE_OPTIONS": "--max-old-space-size=2048"
+  }
+}
